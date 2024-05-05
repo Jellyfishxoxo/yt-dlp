@@ -1,3 +1,16 @@
+EXAMPLE USAGE:
+
+Download mp4 playlist:
+yt-dlp.exe -o "%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s" "https://www.youtube.com/watch?v=fTwNitFfgQg&list=PLauxD4ZvQhqsPp1ftsJUV9YjO_nFTudHM&"
+
+Download MP4 playlist and convert to mp3:
+yt-dlp.exe -x --audio-format mp3 --ffmpeg-location C:\Users\glasa\Downloads\ffmpeg-master-latest-win64-gpl\bin -o "%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s" "https://www.youtube.com/watch?v=fTwNitFfgQg&list=PLauxD4ZvQhqsPp1ftsJUV9YjO_nFTudHM&"
+
+
+
+----------------------------------------------
+
+
 <!-- MANPAGE: BEGIN EXCLUDED SECTION -->
 <div align="center">
 
